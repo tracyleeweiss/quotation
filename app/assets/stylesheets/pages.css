@@ -1,0 +1,44 @@
+body{
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button, .button {
+  border-radius: 10px;
+	background-color: #6BC3D7;
+}
+
+.logo_image {
+  width: 30px;
+  height: 30px;
+}
+nav, .top-bar {
+	background-color: #4B5358;
+
+}
+
+.login {
+	color: #F1762F;
+}
+
+.top-bar-section li a {
+	background-color: #4B5358;
+}
+
+.checkbox {
+	display: inline-block;
+  padding-bottom: 25px;
+}
+
+.inline-list, .right{
+	background-color: white;
+}
+#error_explanation h2 {
+	color: #F13F2F;
+	font-size: 1.5em;
+}
+#error_explanation {
+	color: #F13F2F;
+
+}
+
+
