@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Quote 8</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+
+ <nav class="top-bar">
+    <ul class="title-area">
+      <!-- Title Area -->
+      <li class="name">
+        <h1>
+          <a href="#">
+            <img src="./img/quote8_logo_white.png" width="30px"> Quote8
+          </a>
+        </h1>
+      </li>
+      <!-- <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li> -->
+    </ul>
+
+  </nav>
+
+  <!-- End Top Bar -->
+
+
+  <!-- Main Page Content and Sidebar -->
+
+  <div class="row">
+
+    <!-- Contact Details -->
+    <div class="large-7 columns">
+      <p><a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://localhost:3000/jsbookmarklet.js?q=Math.random()';})();">Quotelet</a></p>
+
+      <h3>Quote8</h3>
+      <p>Quickly store your favorite quotes from all over.</p>
+      <img src="./img/safari.png">
+      <div class="section-container tabs" data-section>
+
+      </div>
+    </div>
+<div>
+   <button class="round"><img src="./img/quote8_logo_white.png" width="30px"> Quote8</button>
+</div>
+
+    <!-- Sidebar -->
+
+
+    <div class="large-5 columns">
+              <form>
+                <fieldset>
+                   <legend>Signup</legend>
+                <input class="round" type="text" name="firstname" placeholder="First Name">
+                <input type="text" name="email" placeholder="Your Email">
+                <input type="text" name="email_confirm" placeholder="Re-enter Email">
+                <input type="text" name="password" placeholder="Password">
+                <input type="text" name="password_confirm" placeholder="Confirm Password">
+                <button class="sign_up" type="submit">Sign Up</button>
+                </fieldset>
+            </form>
+    </div>
+    <!-- End Sidebar -->
+
+  </div>
+
+  <!-- End Main Content and Sidebar -->
+
+
+  <!-- Footer -->
+
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>&copy; Copyright Specific Assembly</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">About</a></li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+
+
+
+  <!-- Map Modal -->
+
+  <div class="reveal-modal" id="mapModal">
+    <h4>Where We Are</h4>
+    <p><img src="http://placehold.it/800x600" /></p>
+
+    <!-- Any anchor with this class will close the modal. This also inherits certain styles, which can be overriden. -->
+    <a href="#" class="close-reveal-modal">&times;</a>
+  </div>
+<p>Goto</p>
+<p><%= link_to 'All Quotes Page', bookmarks_path %><p>
+<p><%= link_to 'About Quotes Page', about_path %><p>
+
+  <script>
+  document.write('<script src=js/vendor/' +
+  ('__proto__' in {} ? 'zepto' : 'jquery') +
+  '.js><\/script>')
+  </script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+</body>
+</html>
